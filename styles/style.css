@@ -1,41 +1,24 @@
 html {
-  font-size: 10px;
-  font-family: 'Open Sans', sans-serif;
-}
-
-
-h1 {
-  font-size: 60px;
-  text-align: center;
-}
-
-p, li {
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
-}
-
-
-html {
-  background-color: #00539F;
+  min-height: 100%;
+  background-image: url('/images/nasa.jpg');
+  background-size: cover;
+  font-family: Courier, Courier New;
 }
 
 body {
-  width: 600px;
   margin: 0 auto;
-  background-color: #FF9500;
   padding: 0 20px 20px 20px;
-  border: 5px solid black;
+  color: #66FF66;
+  text-shadow: 0 0 10px #33FF33;
 }
 
-h1 {
+h1 {  
+  font-size: 1em;
   margin: 0;
-  padding: 20px 0;
-  color: #00539F;
-  text-shadow: 3px 3px 1px black;
+  padding: 10px 0 0;
 }
 
-img {
-  display: block;
-  margin: 0 auto;
+p, li {
+  line-height: 1;
 }
+
